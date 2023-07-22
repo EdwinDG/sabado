@@ -14,6 +14,7 @@ label {
     margin-left: 20px;
     font-weight: 800;
 }
+
 .contenedor {
     text-align: center;
     background: linear-gradient(60deg,
@@ -36,7 +37,8 @@ label {
     border: 1px solid rgb(185, 28, 28);
     flex-wrap: wrap;
 }
-.p-3{
+
+.p-3 {
     border: 1px solid rgba(255, 0, 221, 0);
 }
 
@@ -45,7 +47,7 @@ label {
     position: relative;
     bottom: 25px;
     width: 50%;
-    border:3px solid rgb(231, 158, 0) ;
+    border: 3px solid rgb(231, 158, 0);
     border-radius: 10px;
     margin-left: 40%;
 }
@@ -57,7 +59,7 @@ label {
     justify-content: center;
 }
 
-.mensaje{
+.mensaje {
     width: 60%;
     margin-left: 30%;
 }
@@ -67,11 +69,12 @@ label {
     color: green;
     font-weight: bold;
 }
-p{
+
+p {
     text-align: left;
 }
 
-.mb-3{
+.mb-3 {
     border: 2px solid black;
     background-color: rgba(0, 255, 255, 0.248);
 }
@@ -82,15 +85,15 @@ p{
 
 
 
-.modal-content{
+.modal-content {
     background-color: #b277af;
     background-image: url('imagenes/1pt.jpg');
     background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.modal-header{
+.modal-header {
     color: #fff;
 }
 
@@ -123,10 +126,11 @@ p{
     margin-top: 5px;
 }
 
-.card-img-top{
-   height: 40%;
+.card-img-top {
+    height: 40%;
 }
-.btn-danger{
+
+.btn-danger {
     margin-right: 20px;
 }
 
@@ -152,7 +156,7 @@ p{
 .tarjeta .card-body {
     height: 350px;
     padding: 10px;
-   
+
 }
 
 .tarjeta .card-title {
@@ -168,20 +172,20 @@ p{
 .card-sita-terminada {
     background-color: rgb(182, 224, 134);
     border: 3px solid rgb(5, 157, 0);
-  }
-  
-  .card-sita-cancelada {
+}
+
+.card-sita-cancelada {
     background-color: rgb(229, 110, 110);
     border: 3px solid rgb(251, 0, 0);
-  }
+}
 
-@media (max-width: 400px){
-    .datos{
+@media (max-width: 400px) {
+    .datos {
         margin: 30px;
         width: 70%;
     }
 
-    .mensaje-error{
+    .mensaje-error {
         position: relative;
         bottom: 50px;
         right: 50px;
